@@ -2,9 +2,9 @@ var gulp = require('gulp');
 
 //These paths need to be changed based on the location of the respective files on your application
 var paths = {
-  html:['views/**/*.html'],
-  css:['public/**/*.css'],
-  js:['public/**/*.js','routes/**/*.js','app.js'],
+  html:['views/sample.html'],
+  css:['public/doc/main.css'],
+  js:['public/javascripts/main.js','routes/index.js','app.js'],
 };
 var runSequence = require('run-sequence');
 var karma = require('karma').server;
